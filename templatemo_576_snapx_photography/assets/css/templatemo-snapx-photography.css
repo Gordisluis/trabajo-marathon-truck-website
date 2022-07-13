@@ -19,7 +19,7 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap: 100,200,300,400,500,600,700,800,900');
 /* 
 ---------------------------------------------
 reset
@@ -71,8 +71,8 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 200;
   background-color: #fff;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
@@ -95,6 +95,7 @@ ul {
 }
 
 p {
+  font-family: 'Ubuntu', sans-serif;
   font-size: 15px;
   line-height: 28px;
   color: #7a7a7a;
@@ -194,7 +195,7 @@ section {
 .section-heading h6 {
   font-size: 15px;
   text-transform: uppercase;
-  color: #13bf00;
+  color: #161616;
   font-weight: 400;
 }
 
@@ -204,11 +205,12 @@ section {
   font-size: 30px;
   font-weight: 700;
   text-transform: capitalize;
-  color: #000;
+  color:   #161616;
+  
 }
 
 .section-heading h4 em {
-  color: #13bf00;
+  color:#161616;
   font-style: normal;
 }
 
@@ -302,7 +304,7 @@ Header Style
 .header-area .main-nav .nav li {
   padding-left: 30px;
   padding-right: 30px;
-  background-color: #13bf00;
+  background-color: #12b100;
 }
 
 .header-area .main-nav .nav li a {
@@ -349,7 +351,7 @@ Header Style
 }
 
 .header-area .main-nav .nav li.has-sub:after {
-  font-family: FontAwesome;
+  font-family: 'Ubuntu', sans-serif;
   content: "\f107";
   font-size: 12px;
   color: #fff;
@@ -393,7 +395,7 @@ Header Style
   transition: all 0.3s ease 0s;
   position: relative;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 300;
   border-bottom: 1px solid #eee;
 }
 
@@ -450,7 +452,7 @@ Header Style
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #2a2a2a;
+  background-color: #4d4d4d;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -648,7 +650,7 @@ Header Style
   }
   .header-area .main-nav .nav li.submenu ul li a {
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 300;
   }
   .header-area .main-nav .nav li.submenu ul li a:hover:before {
     width: 0px;
@@ -923,11 +925,29 @@ Banner Style
 --------------------------------------------- 
 */
 
+.parallax {
+  /* The image used */
+  background-image: url(/templatemo_576_snapx_photography/assets/images/banner-bg.JPG);
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 .main-banner {
   background-image: url(/templatemo_576_snapx_photography/assets/images/banner-bg.JPG);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
-  /*background-position: center center;*/
   background-size: cover;
+  /*background-position: center center;*/
   padding-top: 300px;
   padding-bottom: 300px;
   text-align: center;
@@ -2800,5 +2820,16 @@ body {
   background-repeat: no-repeat;
 }
 
+.parallax {
+  /* The image used */
+  background-image: url(/templatemo_576_snapx_photography/assets/images/banner-bg.JPG);
 
+  /* Set a specific height */
+  min-height: 500px;
 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
