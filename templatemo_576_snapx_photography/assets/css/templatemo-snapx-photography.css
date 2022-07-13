@@ -1489,12 +1489,12 @@ footer {
 
 footer p {
   color: #000;
-  font-size: small;
+  font-size: medium;
   font-weight: 300;
 }
 
 footer p a {
-  color: #fff;
+  color: rgb(12, 12, 12);
   font-weight: 500;
 }
 
