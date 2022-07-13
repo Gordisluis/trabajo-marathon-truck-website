@@ -929,20 +929,36 @@ Banner Style
 --------------------------------------------- 
 */
 
+#bannertop {
+  background: #FFF;
+  padding: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
 .main-banner {
-  background-image: url(/templatemo_576_snapx_photography/assets/images/marathonlogo2.JPG);
+  background-image: url(/templatemo_576_snapx_photography/assets/images/marathonlogo3.JPG);
   min-height: 90px;
   height: 200px;
   width: 100%;
+  opacity: 0.8;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /*background-position: center center;*/
+  background-position: center center;
   padding-top: 300px;
-  padding-bottom: 300px;
+  padding-bottom: 400px;
   text-align: center;
   background-color: #2a2a2a;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
 }
 
 @media only screen and (max-device-width: 1366px) {
