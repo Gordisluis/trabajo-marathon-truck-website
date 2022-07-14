@@ -98,7 +98,7 @@ p {
   font-family: 'Ubuntu', sans-serif;
   font-size: 15px;
   line-height: 28px;
-  color: #7a7a7a;
+  color: #000000;
 }
 
 img {
@@ -111,10 +111,17 @@ img {
 Global Styles
 --------------------------------------------- 
 */
+
+#test {
+  margin: 0 auto;
+  padding-top: 10%;
+}
+
 html,
 body {
   background: #fff;
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
 }
 
 ::selection {
@@ -182,7 +189,8 @@ body {
 }
 
 section {
-  margin-top: 120px;
+  margin-top: 25px;
+  margin-bottom: 63px;
 }
 
 .section-heading {
@@ -774,45 +782,7 @@ a.btn_red {
   padding: 20px;
 }
 
-.social_login .social_box {
-  display: block;
-  clear: both;
-  padding: 10px;
-  margin-bottom: 10px;
-  background: #F4F4F2;
-  overflow: hidden;
-}
 
-.social_login .icon {
-  display: inline-block;
-  
-  padding: 5px 10px;
-  margin-right: 10px;
-  color: #FFF;
-  font-size: 16px;
-  text-align: center;
-}
-
-.social_login .fb .icon {
-  background: #3B5998;
-}
-
-.social_login .google .icon {
-  background: #DD4B39;
-}
-
-.social_login .icon_title {
-  display: block;
-  padding: 5px 0;
-  float: left;
-  font-weight: bold;
-  font-size: 16px;
-  color: #777;
-}
-
-.social_login .social_box:hover {
-  background: #E4E4E2;
-}
 
 .centeredText {
   color: #afafaf;
@@ -823,9 +793,6 @@ a.btn_red {
   text-transform: capitalize;
 }
 
-.user_login label {
-  color: #afafaf;
-}
 
 .action_btns {
   clear: both;
@@ -835,92 +802,8 @@ a.btn_red {
 .action_btns a {
   display: block;
 }
-/* User Login Form */
 
-.user_login {
-  display: none;
-}
 
-.user_login label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.user_login input[type="text"],
-.user_login input[type="email"],
-.user_login input[type="password"] {
-  display: block;
-  width: 90%;
-  padding: 10px;
-  border: 1px solid #DDD;
-  color: #666;
-}
-
-.user_login input[type="checkbox"] {
-  float: left;
-  margin-right: 10px;
-  width: 22px;
-  height: 22px;
-}
-
-.user_login input[type="checkbox"]+label {
-  float: left;
-}
-
-.user_login .checkbox {
-  margin-bottom: 10px;
-  clear: both;
-  overflow: hidden;
-}
-
-.forgot_password {
-  display: block;
-  margin: 20px 0 10px;
-  clear: both;
-  overflow: hidden;
-  text-decoration: none;
-  color: #00bdfe;
-  transition: all .3s;
-}
-/* User Register Form */
-
-.user_register {
-  display: none;
-}
-
-.user_register label {
-  color: #afafaf;
-  display: block;
-  margin-bottom: 5px;
-}
-
-.user_register input[type="text"],
-.user_register input[type="email"],
-.user_register input[type="password"] {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #DDD;
-  color: #666;
-}
-
-.user_register input[type="checkbox"] {
-  width: 22px;
-  height: 22px;
-  float: left;
-  margin-right: 8px;
-}
-
-.user_register input[type="checkbox"]+label {
-  float: left;
-  color: #afafaf;
-}
-
-.user_register .checkbox {
-  margin-bottom: 10px;
-  clear: both;
-  overflow: hidden;
-}
 
 
 /* 
@@ -937,7 +820,7 @@ Banner Style
 }
 
 .main-banner {
-  background-image: url(/templatemo_576_snapx_photography/assets/images/marathonlogo3.JPG);
+  background-image: url(/templatemo_576_snapx_photography/assets/images/marathonlogo3.avif);
   min-height: 90px;
   height: 200px;
   width: 100%;
@@ -1994,12 +1877,13 @@ Contest Details Page
   background-color: #f7f7f7;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  padding: 25px;
+  padding: 16px;
+  padding-bottom: 32px;
 }
 
 .contest-waiting .waiting-item .down-content h4 {
   font-size: 15px;
-  color: #00bdfe;
+  color: #535353;
   font-weight: 700;
   margin-bottom: 22px;
 }
@@ -2780,7 +2664,7 @@ body {
 }
 
 .job-elements, h3, p {
-  color:#13bf00;
+  color:#000;
   margin-bottom: 30px;
   margin-top: 30px;
   font-size: 28px;
