@@ -2733,11 +2733,54 @@ body {
 
 /* google map */
 
-.google-maps {
+.map-container {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* background-color: dimgrey; */
+  /* border-radius: 50px; */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 36px;
+  /* background: #deddda; */
+  box-shadow: 8px 8px 13px #c1c0be, -8px -8px 13px #fbfaf6;
+  /* border-radius: 35px; */
+  /* background: #deddda; */
+  /* box-shadow: 15px 15px 29px #d1d0cd, -15px -15px 29px #ebeae7;*/
+}
+
+.map-item {
+  width: 50%;
+  height: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: auto;
+  display: flex;
+  align-self: auto;
+  align-items: space-around;
+  
+}
+
+.map-content {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10%;
+}
+
+
+
+/* .google-maps {
 
         position: relative;
 
-        padding-bottom: 75%; /*This is the aspect ratio*/
+        padding-bottom: 75%; /*This is the aspect ratio
 
         height: 0;
 
@@ -2757,4 +2800,4 @@ body {
 
         height: 100% !important;
 
-    }
+    }*/
