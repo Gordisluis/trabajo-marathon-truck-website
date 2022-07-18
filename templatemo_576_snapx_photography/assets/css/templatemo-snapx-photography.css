@@ -19,7 +19,7 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap: 100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap: 200,300,400,500,600,700,800,900');
 /* 
 ---------------------------------------------
 reset
@@ -71,7 +71,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 200;
   background-color: #fff;
   font-size: 16px;
@@ -95,7 +95,7 @@ ul {
 }
 
 p {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   line-height: 28px;
   color: #7a7a7a;
@@ -114,7 +114,7 @@ Global Styles
 html,
 body {
   background: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 ::selection {
@@ -351,7 +351,7 @@ Header Style
 }
 
 .header-area .main-nav .nav li.has-sub:after {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   content: "\f107";
   font-size: 12px;
   color: #fff;
@@ -3029,12 +3029,14 @@ body {
 }
 
 .footer-container p {
+  font-family: 'Open Sans', sans-serif;
   color: #000;
   font-size: medium;
   font-weight: 300;
 }
 
 .footer-container p a {
+  font-family: 'Open Sans', sans-serif;
   color: rgb(12, 12, 12);
   font-weight: 500;
 }
