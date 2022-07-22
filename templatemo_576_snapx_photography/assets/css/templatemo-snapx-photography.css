@@ -19,7 +19,7 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap: 200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap: 200,400,700,900');
 /* 
 ---------------------------------------------
 reset
@@ -71,7 +71,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 200;
   background-color: #fff;
   font-size: 16px;
@@ -86,7 +86,7 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 0px; 
   color: #000;
 }
 
@@ -94,8 +94,20 @@ ul {
   margin-bottom: 0px;
 }
 
+.about-us-h2, .abot-us-h1 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  text-decoration: none;
+  text-justify: kashida;
+  color: #000000;
+}
+
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  text-decoration: none;
+  text-justify: kashida;
+  color: #000000;
   font-size: 15px;
   line-height: 28px;
   color: #7a7a7a;
@@ -114,7 +126,7 @@ Global Styles
 html,
 body {
   background: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 ::selection {
@@ -189,6 +201,7 @@ section {
   position: relative;
   z-index: 2;
   margin-top: 0px;
+  font-family: 'Playfair Display';
   margin-bottom: 70px;
 }
 
@@ -351,7 +364,7 @@ Header Style
 }
 
 .header-area .main-nav .nav li.has-sub:after {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   content: "\f107";
   font-size: 12px;
   color: #fff;
@@ -1293,7 +1306,7 @@ section.closed-contests {
 
 .closed-item .thumb span.winner {
   font-size: 15px;
-  color: #00bdfe;
+  color: #f5f5f5;
   background-color: #fff;
   border-radius: 10px;
   font-weight: 500;
@@ -1338,8 +1351,9 @@ section.closed-contests {
 .closed-item .down-content {
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  background-color: #fff;
+  background-color: rgb(230, 230, 230);
   padding: 25px 30px;
+  font-family: 'Playfair Display';
 }
 
 .closed-item .down-content h4.pics {
@@ -2236,12 +2250,11 @@ Categories Page
 
 .testimonials {
   border: 0px;
-  background-color: #f1fbff;
+  background-color: #ffffff;
   padding: 5px 0px;
 }
 
-.testimonials .item {
-  border: 1px solid #fff; 
+.testimonials .item { 
   padding: 10px 10px 10px 10px;
   border-radius: 15px;
 }
@@ -2255,12 +2268,13 @@ Categories Page
 }
 
 .testimonials .item .content .image img {
-  border-radius: 15px;
+  border-radius: 30px;
+  border: #fff;
 }
 
 .testimonials .item p {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 300;
   color: #000;
 }
 
@@ -2273,8 +2287,9 @@ Categories Page
   margin-top: 25px;
   padding-top: 25px;
   border-top: 1px solid #dfdfdf;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'playfair display', serif;
   margin-bottom: 5px;
 }
 
@@ -3029,14 +3044,14 @@ body {
 }
 
 .footer-container p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   color: #000;
   font-size: medium;
   font-weight: 300;
 }
 
 .footer-container p a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   color: rgb(12, 12, 12);
   font-weight: 500;
 }
