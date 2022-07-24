@@ -19,7 +19,7 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap: 200,400,700,900');
 /* 
 ---------------------------------------------
 reset
@@ -33,6 +33,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
   padding: 0;
   border: 0;
   outline: 0;
+  font-family: 'Playfair Display';
 }
 
 .clearfix:after {
@@ -71,8 +72,8 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  font-weight: 200;
   background-color: #fff;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
@@ -86,7 +87,7 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 0px; 
   color: #000;
 }
 
@@ -94,7 +95,20 @@ ul {
   margin-bottom: 0px;
 }
 
+.about-us-h2, .abot-us-h1 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  text-decoration: none;
+  text-justify: kashida;
+  color: #000000;
+}
+
 p {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  text-decoration: none;
+  text-justify: kashida;
+  color: #000000;
   font-size: 15px;
   line-height: 28px;
   color: #7a7a7a;
@@ -113,7 +127,7 @@ Global Styles
 html,
 body {
   background: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 ::selection {
@@ -188,13 +202,14 @@ section {
   position: relative;
   z-index: 2;
   margin-top: 0px;
+  font-family: 'Playfair Display';
   margin-bottom: 70px;
 }
 
 .section-heading h6 {
   font-size: 15px;
   text-transform: uppercase;
-  color: #13bf00;
+  color: #161616;
   font-weight: 400;
 }
 
@@ -204,11 +219,12 @@ section {
   font-size: 30px;
   font-weight: 700;
   text-transform: capitalize;
-  color: #000;
+  color:   #161616;
+  
 }
 
 .section-heading h4 em {
-  color: #13bf00;
+  color:#161616;
   font-style: normal;
 }
 
@@ -224,7 +240,7 @@ Header Style
 */
 
 .background-header {
-  background-color: rgb(146, 146, 146);
+
   height: 100px!important;
   position: relative!important;
   top: 0!important;
@@ -302,7 +318,7 @@ Header Style
 .header-area .main-nav .nav li {
   padding-left: 30px;
   padding-right: 30px;
-  background-color: #13bf00;
+  background-color: #12b100;
 }
 
 .header-area .main-nav .nav li a {
@@ -334,12 +350,12 @@ Header Style
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fff;
+  color: #10a000;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fff;
+  color: #10a000;
   opacity: 1;
 }
 
@@ -349,7 +365,7 @@ Header Style
 }
 
 .header-area .main-nav .nav li.has-sub:after {
-  font-family: FontAwesome;
+  font-family: 'Playfair Display', serif;
   content: "\f107";
   font-size: 12px;
   color: #fff;
@@ -393,13 +409,13 @@ Header Style
   transition: all 0.3s ease 0s;
   position: relative;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 300;
   border-bottom: 1px solid #eee;
 }
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
-  color: #00bdfe!important;
+  color: #10a000!important;
   padding-left: 25px;
 }
 
@@ -450,7 +466,7 @@ Header Style
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #2a2a2a;
+  background-color: #4d4d4d;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -532,10 +548,14 @@ Header Style
 
 .header-area.header-sticky {
   min-height: 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .header-area.header-sticky .nav li a.active {
   color: #fff;
+  
 }
 
 @media (max-width: 1200px) {
@@ -631,7 +651,7 @@ Header Style
     color: #191a20 !important;
   }
   .header-area .main-nav .nav li a:hover {
-    background: #eee !important;
+    background: #10a000!important;
     color: #00bdfe!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
@@ -648,7 +668,7 @@ Header Style
   }
   .header-area .main-nav .nav li.submenu ul li a {
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 300;
   }
   .header-area .main-nav .nav li.submenu ul li a:hover:before {
     width: 0px;
@@ -923,15 +943,42 @@ Banner Style
 --------------------------------------------- 
 */
 
+#bannertop {
+  background: #FFF;
+  padding: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
 .main-banner {
-  background-image: url(/templatemo_576_snapx_photography/assets/images/banner-bg.JPG);
+  background-image: url(/templatemo_576_snapx_photography/assets/images/marathonlogo.avif);
+  min-height: 90px;
+  height: 200px;
+  width: 100%;
+  opacity: 0.8;
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
-  /*background-position: center center;*/
   background-size: cover;
+  background-position: center center;
   padding-top: 300px;
-  padding-bottom: 300px;
+  padding-bottom: 400px;
   text-align: center;
   background-color: #2a2a2a;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
 }
 
 .main-banner h2 {
@@ -1046,7 +1093,7 @@ section.featured-items {
 
 .featured-items .item .thumb .hover-effect .content h4 {
   font-size: 20px;
-  color: #13bf00;
+  color: #000;
   margin-bottom: 22px;
 }
 
@@ -1241,7 +1288,7 @@ closed contests
 */ 
 
 section.closed-contests {
-  background-color: #c9c9c9;
+  background-color: #f0f0f0;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1260,7 +1307,7 @@ section.closed-contests {
 
 .closed-item .thumb span.winner {
   font-size: 15px;
-  color: #00bdfe;
+  color: #f5f5f5;
   background-color: #fff;
   border-radius: 10px;
   font-weight: 500;
@@ -1305,8 +1352,9 @@ section.closed-contests {
 .closed-item .down-content {
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  background-color: #fff;
+  background-color: rgb(230, 230, 230);
   padding: 25px 30px;
+  font-family: 'Playfair Display';
 }
 
 .closed-item .down-content h4.pics {
@@ -1385,7 +1433,7 @@ pricing-plans
 }
 
 .pricing-item:hover h4 {
-  color: #00bdfe;
+  color: #000;
 }
 
 .pricing-item img {
@@ -1443,25 +1491,28 @@ footer
 */
 
 footer.no-space {
-  margin-top: 0px;
+  margin-top: 15px;
 }
 
 footer {
   background-color: #13bf00;
   text-align: center;
   padding: 25px 0px;
-  margin-top: 120px;
-  height: 200px;
+  margin-top: 60px;
+  height: 300px;
+  font-family: "Playfair Display", sans-serif;
 }
 
 footer p {
+  font-family: "Playfair Display", sans-serif;
   color: #000;
-  font-size: small;
+  font-size: medium;
   font-weight: 300;
 }
 
 footer p a {
-  color: #fff;
+  font-family: "Playfair Display", sans-serif;
+  color: rgb(12, 12, 12);
   font-weight: 500;
 }
 
@@ -1474,14 +1525,13 @@ page heading
 */
 
 .page-heading {
-  background-image: url(.../assets/images/banner-bg.jpg);
+  background-image: url(/templatemo_576_snapx_photography/assets/images/marathonlogo.avif);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 130px;
   text-align: center;
-  background-color: #2a2a2a;
 }
 
 .page-heading h2 {
@@ -1497,7 +1547,7 @@ page heading
 
 .page-heading h2 em {
   font-style: normal;
-  color: #00bdfe;
+  color: #c4c4c4;
 }
 
 .page-heading p {
@@ -1709,7 +1759,7 @@ Contests Page
   float: right;
   font-size: 20px;
   font-weight: 700;
-  color: #00bdfe;
+  color: #000;
 }
 
 .contest-win .contest-item h4 {
@@ -1966,9 +2016,10 @@ Contest Details Page
 
 .contest-waiting .waiting-item .down-content h4 {
   font-size: 15px;
-  color: #00bdfe;
+  color: rgb(41, 41, 41);
   font-weight: 700;
   margin-bottom: 22px;
+  text-align: center;
 }
 
 .contest-waiting .waiting-item .down-content p {
@@ -2202,12 +2253,11 @@ Categories Page
 
 .testimonials {
   border: 0px;
-  background-color: #f1fbff;
+  background-color: #ffffff;
   padding: 5px 0px;
 }
 
-.testimonials .item {
-  border: 1px solid #fff; 
+.testimonials .item { 
   padding: 10px 10px 10px 10px;
   border-radius: 15px;
 }
@@ -2221,12 +2271,13 @@ Categories Page
 }
 
 .testimonials .item .content .image img {
-  border-radius: 15px;
+  border-radius: 30px;
+  border: #fff;
 }
 
 .testimonials .item p {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 300;
   color: #000;
 }
 
@@ -2239,8 +2290,9 @@ Categories Page
   margin-top: 25px;
   padding-top: 25px;
   border-top: 1px solid #dfdfdf;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'playfair display', serif;
   margin-bottom: 5px;
 }
 
@@ -2642,6 +2694,8 @@ body {
 
   overflow:hidden;
 
+  padding-top: 5%;
+
   padding-bottom:30%;
 
   position:relative;
@@ -2800,5 +2854,207 @@ body {
   background-repeat: no-repeat;
 }
 
+.parallax {
+  /* The image used */
+  background-image: url(/templatemo_576_snapx_photography/assets/images/marathonlogo.avif);
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
+.column {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-content: center;
+  
+
+}
+
+@media (min-width: 200px) {
+  .column {
+    flex-direction: row;
+  }
+}
+
+.card-content-about {
+  padding: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  /*background-image: url(/templatemo_576_snapx_photography/assets/images/pexels-tatiana-fet-1105766\(1\).jpg);*/
+  width: 70%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  text-align: center;
+
+}
+
+.fa-solid {
+  flex: 1;
+  margin: auto;
+}
+
+/*prueba de mapa*/
+.content-section-map {
+  padding-top: 80px;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  height: auto;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.section-heading-map {
+  text-align: left;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.section-heading-map h1 {
+  margin-top: 0px;
+  font-size: 32px;
+  color: #232323;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.section-heading-map em {
+  font-style: normal;
+  font-weight: 700;
+  color: #45489a;
+}
+
+.section-heading-map p {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 26px;
+  color: #343434;
+  position: absolute;
+  top: 12.5px;
+}
+
+/*prueba de form contacto*/
+/* Contact Style */
+
+#contact {
+  padding-top: 0px;
+}
+
+#contact-content {
+  padding: 80px 60px;
+}
+
+#contact input {
+  border-radius: 0px;
+  padding-left: 15px;
+  font-size: 13px;
+  color: #aaa;
+  background-color: #f4f4f4;
+  border: 1px solid #eee;
+  outline: none;
+  box-shadow: none;
+  line-height: 40px;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+#contact textarea {
+  border-radius: 0px;
+  padding-left: 15px;
+  padding-top: 10px;
+  font-size: 13px;
+  color: #aaa;
+  background-color: #f4f4f4;
+  border: 1px solid #eee;
+  outline: none;
+  box-shadow: none;
+  height: 200px;
+  max-height: 250px;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 25px;
+}
+
+#contact button {
+  font-size: 13px;
+  border-radius: 25px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+  background-color: #12b100;
+  display: inline-block;
+  height: 45px;
+  line-height: 24px;
+  outline: none;
+  box-shadow: none;
+  width: 60%;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#contact button:hover {
+  color: #000000;
+  background-color: #06b100e7;
+}
+
+
+.content-section {
+  padding-top: 80px;
+  padding-bottom: 5%;
+  padding-top: 0%;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  height: auto;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+
+/*footer about us */
+
+.footer-container .no-space {
+  margin-top: 10px;
+}
+
+.footer-container {
+  background-color: #13bf00;
+  text-align: center;
+  padding: 25px 0px;
+  margin-top: 60px;
+  height: 310px;
+}
+
+.footer-container p {
+  font-family: 'Playfair Display', serif;
+  color: #000;
+  font-size: medium;
+  font-weight: 300;
+}
+
+.footer-container p a {
+  font-family: 'Playfair Display', serif;
+  color: rgb(12, 12, 12);
+  font-weight: 500;
+}
