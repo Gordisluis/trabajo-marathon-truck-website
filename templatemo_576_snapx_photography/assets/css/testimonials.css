@@ -1,0 +1,72 @@
+.testimonials {
+    border: 0px;
+    background-color: #ffffff;
+    padding: 5px 0px;
+  }
+  
+  .testimonials .item { 
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+  }
+  
+  .testimonials .item .content {
+    display: flex;
+  }
+  
+  .testimonials .item .content .image {
+    min-width: 240px;
+  }
+  
+  .testimonials .item .content .image img {
+    border-radius: 30px;
+    border: #fff;
+  }
+  
+  .testimonials .item p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #000;
+  }
+  
+  .testimonials .item .content .left-content {
+    margin-right: 45px;
+  }
+  
+  .testimonials .item .content .left-content h4 {
+    display: inline-block;
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid #dfdfdf;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'playfair display', serif;
+    margin-bottom: 5px;
+  }
+  
+  .testimonials .item .content .left-content span {
+    display: block;
+    font-size: 15px;
+    color: #afafaf;
+  }
+  
+  .testimonials .owl-dots {
+    text-align: center;
+    margin-top: -70px;
+    margin-bottom: 120px;
+    position: relative;
+    z-index: 555;
+  }
+  
+  .testimonials .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #afafaf;
+    border-radius: 50%;
+    margin: 0px 3px;
+  }
+  
+  .testimonials .owl-dots .active {
+    background-color: #13bf00;
+    border: 1px solid #13bf00;
+  }
+  
