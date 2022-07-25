@@ -1915,10 +1915,13 @@ Contest Details Page
 }
 
 .contest-details .main-content {
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  padding: 80px 60px;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.06);
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding: 80px 60px;
+	box-shadow: 0px 15px 15px 15px rgba(0, 0, 0, 0.06);
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	margin-top: 20px;
 }
 
 .contest-details .main-content h4 {
@@ -2004,15 +2007,19 @@ Contest Details Page
 }
 
 .contest-waiting .waiting-item img {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+  box-shadow: 15px 15px 14px rgba(0, 0, 0, 0.1);
+
 }
 
 .contest-waiting .waiting-item .down-content {
-  background-color: #f7f7f7;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  padding: 25px;
+	background-color: #f0f2f1;
+	border-bottom-left-radius: 55px;
+	border-bottom-right-radius: 55px;
+	padding: 27px;
+	margin-bottom: 15px;
+  box-shadow: 15px 15px 14px rgba(0, 0, 0, 0.1);
 }
 
 .contest-waiting .waiting-item .down-content h4 {
@@ -2815,16 +2822,14 @@ body {
 }
 
 .card-content-about {
-  padding: 20px;
-  padding-bottom: 20px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 10px;
-  /*background-image: url(/templatemo_576_snapx_photography/assets/images/pexels-tatiana-fet-1105766\(1\).jpg);*/
-  width: 70%;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  margin: 5px;
-  text-align: center;
-
+	padding: 55px;
+	padding-bottom: 33px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 75px;
+	width: 27%;
+	box-shadow: 15px 15px 14px rgba(0, 0, 0, 0.1);
+	margin: 37px;
+	text-align: center;
 }
 
 .fa-solid {
