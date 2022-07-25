@@ -18,9 +18,9 @@
   }
   
   .testimonials .item .content .image img {
-    border-radius: 30px;
-    border: #fff;
-  }
+	border-radius: 20px;
+	border: #fff;
+}
   
   .testimonials .item p {
     font-size: 18px;

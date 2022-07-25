@@ -1054,7 +1054,8 @@ featured
 */ 
 
 section.featured-items {
-  margin-top: -150px;
+	margin-top: -187px;
+	position: relative;
 }
 
 .featured-items .item .thumb {

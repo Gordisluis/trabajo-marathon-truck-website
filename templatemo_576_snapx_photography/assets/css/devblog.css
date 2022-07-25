@@ -27,12 +27,11 @@
 }
 
 .card {
-  position: relative;
-  background-color: #fff;
-  padding: 1em;
-  border-radius: 5px;
-  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
-  transition: 200ms ease-in-out;
+	position: relative;
+	background-color: #fff;
+	padding: 1em;
+	transition: 200ms ease-in-out;
+	border-radius: 0px 0 20px 20px;
 }
 
 .card img {
@@ -51,11 +50,14 @@
 }
 
 .cardHeader {
-  display: grid;
-  grid-template-columns: auto 100px;
-  -webkit-box-align: center;
-  align-items: center;
-  text-transform: uppercase;
+	display: grid;
+	grid-template-columns: auto 100px;
+	-webkit-box-align: center;
+	align-items: center;
+	text-transform: uppercase;
+	border-radius: 0px 0px 15px 15px;
+	/* padding-top: 3px; */
+	/* margin-top: 15px; */
 }
 
 .cardHeader .cardHeader_title {
